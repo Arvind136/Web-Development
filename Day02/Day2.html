@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day02</title>
+    <style>
+        marquee {
+            color: blue;
+            font-size: 60px;
+            font-family: cursive;
+        }
+        
+        label {
+            color: brown;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .gen {
+            color: crimson;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        #malegen {
+            color: darkgreen;
+            font-size: 40px;
+        }
+        
+        img {
+            width: 400px;
+            height: 600ps;
+            margin-right: 400px;
+            margin-top: -90%;
+            border-style: solid;
+            border-color: cyan;
+            border-width: 20px;
+            border-radius: 50%;
+            padding: 0px;
+        }
+        
+        body {
+            background-color: rgb(192, 230, 26);
+            background-image: linear-gradient(rgb(255, 166, 0), green)
+        }
+        
+        form {
+            margin-left: 60%;
+        }
+    </style>
+</head>
+
+<body>
+    <marquee behavior="" direction="right">Arvind</marquee>
+    <form action="mailto: arvirapport@gmail.com">
+        <label for="myname" style="color: chocolate; font-size:30px;">Name:</label> <br>
+        <input type="text" name='name' placeholder="Enter Your Name" id="myname" required>
+        <br><br> Email: <br>
+        <input type='email' name="email" placeholder="Enter Your Email" required>
+        <br> <br> Mobile No.: <br>
+        <input type='number' name="number" placeholder="Enter Your number" required>
+        <br> <br> Gender:
+        <label for="gender-m" class="gen" id="malegen">Male</label>
+        <input type='radio' name='gender' value='Male' id='gender-m'>
+        <label for="gender-f" class="gen">Female</label>
+        <input type='radio' name='gender' value='Female' id='gender-f'>
+        <br> <br> Skills:
+        <label for="skill1">CSS</label>
+        <input type='checkbox' name='checkbox' id='skill1'>
+        <label for="skill2">HTML</label>
+        <input type='checkbox' name='checkbox' id='skill2' checked>
+        <br> <br> States:
+        <select name="State" id="">
+            <option value="">--select a state--</option>
+            <option value="" selected>kolkata</option>
+            <option value="">haryana</option>
+            <option value="">patna</option>
+            <option value="">bihar</option>
+        </select>
+        <br> <br>
+        <input type='submit' name='submit' value='Submit'>
+        <input type='reset' name='reset' value='Reset'>
+    </form>
+    <br>
+    <img src="https://static2.cbrimages.com/wordpress/wp-content/uploads/2020/03/Avengers-Anatomy-Hulk-3.jpg" alt="This is hulk images ">
+</body>
+
+</html

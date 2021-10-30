@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project1</title>
+    <style>
+        h1,
+        h3,
+        p,
+        .b {
+            font-family: Arial, Helvetica, sans-serif
+        }
+        
+        input {
+            border-radius: 3px;
+            border-width: 1px;
+            height: 25px;
+            border-color: rgb(155, 140, 223)
+        }
+        
+        .a {
+            width: 335px
+        }
+        
+        body {
+            background-color: rgb(229, 233, 243);
+        }
+        
+        #submit {
+            width: 150px;
+            color: aliceblue;
+            background-color: forestgreen;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        
+        p {
+            font-size: 70%
+        }
+        
+        form {
+            margin-left: 800px;
+            margin-top: 100px;
+            size: 100%
+        }
+        
+        .c {
+            height: 30px
+        }
+        
+        img {
+            width: 700px;
+            height: 400px;
+            margin-top: -50000px
+        }
+        
+        h2 {
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(65, 97, 201);
+            text-align: center;
+            margin-bottom: -50px
+        }
+        /*         
+        h3 {
+            font-family: Arial, Helvetica, sans-serif
+        }
+         */
+        /* .b {
+            font-family: Arial, Helvetica, sans-serif
+        }
+        
+        p {
+            font-family: Arial, Helvetica, sans-serif
+        } */
+    </style>
+</head>
+
+<body>
+    <h2>Facebook helps you connect and <br> share with the people in your life.</h2>
+
+    <form action="mailto:arvirapport@gmail.com">
+        <h1>Create an account</h1>
+        <h3>It's quick and easy.</h3>
+
+        <input type="text" name="firstname" placeholder="First Name" required>
+        <input type="text" name="lastname" placeholder="Surname" required>
+        <br> <br>
+        <input class='a' type='text' name='mynumber' placeholder='Mobile number or email address' required>
+        <br><br>
+        <input class="a" type="password" name="mypassword" id="password" placeholder="New password" required>
+        <br> <br>
+
+        <!-- <select name="birthdate" id="">
+     <option value=""><input type="number"></option>
+     <option value=""><input type="text"></option>
+        <select name="" id="">
+            <option value=""><input type='number'></option>
+        </select>
+    </select> -->
+        <!-- <p>Birthday </p> -->
+        <label class="b" for="date">Birthday</label><br>
+        <input type="date" id="date">
+        <br><br>
+        <span class="b">Gender</span><br><br>
+        <input type="radio" name='gender' id="gen-f">
+        <sup><label class='b' for="gen-f">Female</label></sup>
+        <input type="radio" name='gender' id="gen-m">
+        <sup><label class='b' for="gen-m">Male</label></sup>
+        <input type="radio" name='gender' id="gen-o">
+        <sup> <label class='b' for="gen-o">Custom</label></sup>
+        <p>By clicking Sign Up, you agree to our <a href="">Terms, Data Policy</a> and <br> <a href="">Cookies Policy</a>. You may recieve SMS notification from us and <br> can opt out at any time. </p>
+        <br>
+        <input class="c" type="submit" value="Sign Up" id="submit">
+
+    </form>
+    <img src="Capture.PNG" alt="">
+</body>
+
+</html>
