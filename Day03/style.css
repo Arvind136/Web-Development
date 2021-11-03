@@ -1,0 +1,22 @@
+body {
+    background-color: bisque
+}
+
+.lorem {
+    width: 50em;
+    background-color: chocolate
+}
+
+.lorem:hover {
+    background-color: aqua
+}
+
+.lorem>pre {
+    cursor: pointer
+}
+
+.lorem>pre:hover {
+    color: blue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}

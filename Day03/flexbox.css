@@ -1,0 +1,23 @@
+.parent>div {
+    background-color: chartreuse;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#five {
+    flex-grow: 3
+}
+
+#one {
+    flex-shrink: 3
+}
