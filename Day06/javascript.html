@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Javascipt</title>
+    <script>
+        name = 'Arvind'
+        console.log(name)
+
+        console.log(name[1]);
+        console.log(name.length)
+
+        var a = 2;
+        console.log(a);
+
+        num = 5;
+        console.log(num + a)
+
+        for (var i = 0; i <= 9; i++) {
+            console.log(i);
+        }
+
+        for (var b = 2; b < 4; b++) {
+            for (var i = 1; i <= 10; i++) {
+                console.log(b + 'X' + i + '=' + b * i)
+            }
+
+            console.log(' ')
+            console.log('*****************************************')
+            console.log(' ')
+        }
+
+        for (var i = 0; i <= 20; i++) {
+            if (i === 0) {
+                console.log(i + ' ' + 'is even')
+            } else if (i % 2 === 0) {
+                console.log(i + ' ' + 'is even')
+            } else {
+                console.log(i + ' ' + 'is odd')
+            }
+        }
+
+        console.log('****************************************** ')
+
+        //easy method
+
+        for (var n = 0; n <= 10; n++) {
+            if (n & 1) {
+                console.log(n + ' ' + 'is odd')
+            } else {
+                console.log(n + ' ' + 'is even')
+            }
+        }
+        var lorem = ' lorem ipsum'
+        console.log(lorem.length)
+
+        var names = ['Arvind', 'samridhi', 'lokesh', 'mohit', 1414];
+        console.log(names)
+        console.log(names.find(n => n === 'lokesh'))
+        names.push('Manish', 'abhisek');
+        console.log(names)
+        names.pop();
+        console.log(names)
+
+        function functionName(num) {
+            if (num > 9) {
+                console.log('It is greater than 9')
+            } else {
+                console.log('It is smalle than 9')
+            }
+
+        }
+        functionName(68)
+        functionName(7)
+        functionName(0)
+
+
+        function oddeven(num) {
+            if (num & 1) {
+                console.log(num + ' ' + 'is odd')
+            } else {
+                console.log(num + ' ' + 'is even')
+            }
+        }
+
+        oddeven(5)
+        oddeven(56)
+        oddeven(507)
+    </script>
+
+</head>
+
+<body>
+    <div style="width: 100px; height:30px; background-color:blueviolet; align-content: center; margin: 20%;">
+
+    </div>
+
+</body>
+
+</html>
